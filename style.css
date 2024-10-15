@@ -1,0 +1,42 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:#122a41;
+
+}
+
+h1{
+    color: #20dbd8;
+}
+
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #156395;
+    transition: 0.5s;
+    color: black;
+}
+
+#qrcode canvas {
+    margin-top: 20px;
+}
